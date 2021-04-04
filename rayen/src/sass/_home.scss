@@ -1,0 +1,115 @@
+.home{
+    .page--title{
+        justify-content: flex-start;
+        p{
+            margin: 0 2rem;
+        }
+    }
+    .form{
+        .selector{
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin: .5rem;
+            select{
+                width: 50%;
+                margin: 2px;
+                outline: none;
+                border: none;
+                font-size: 10px;
+                option{
+                    outline: none;
+                     border: none;
+                     &:focus{
+                        outline: none;
+                        border: none;
+                     }
+                }
+            }
+        }
+    }
+        .form{
+            display: flex;
+            flex-flow: column;
+            .show--data{
+            
+        .data{ list-style: none;
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+
+                .list--element{
+                    cursor: pointer;
+                    padding: 8px;
+                    &:hover{
+                        background-color: #e4e2e2;
+                    }
+
+                    .course--name{
+                        font-size: 14px;
+                    }
+                    .course--author{
+                        font-size: 10px;
+                        color: #a09d9d;
+                    }
+                    .course--date{
+                        font-size: 10px;
+                        color: #a09d9d;
+                    }
+                }
+            }
+        }
+        .form-input-buttom{
+            width: 55% !important;
+            margin: 2rem auto !important;
+            color: #622fee;
+            background-color: #fff;
+            border: 1px solid #622fee;
+            &:hover{
+                color: #fff;
+                background-color: #622fee;
+            }
+        }
+        
+    }
+
+    .add--new--tutorial{
+        display: flex;
+        flex-direction: row-reverse;
+
+        button{
+            outline: none;
+            appearance: none;
+        }
+        .addtutorial{
+            
+            color: #fff;
+            position:relative;
+            margin:4px;
+            display:inline-block;
+            vertical-align:middle;
+            font-size: 1rem;
+            width: 50px;
+            height: 50px;
+            font-weight: bold;
+            background-color: #00bcd4;
+            border-radius: 100%;
+            border: none;
+            transition: all .3s ease-in;
+            cursor: pointer;
+            box-shadow: 0px 0px 5px 1px lightgray;
+            &:hover{
+                color: #622fee;
+                background-color: #fff;
+                transition: all .3s ease-out;
+                
+            }
+
+            
+        
+        }
+
+    }
+}

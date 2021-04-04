@@ -1,0 +1,28 @@
+.container{
+    .row{
+        .add--Tutorial{
+            .form{
+                .button--add{
+                    justify-content: space-around !important;
+                    padding: .5rem;
+                    .form-input-buttom-left{
+                        color: #622fee;
+                        cursor: pointer;
+                        padding: .2rem .7rem;
+                        background-color: #fff;
+                        border: 1px solid #622fee;
+                        transition: all .3s ease-in;
+                        &:hover{
+                            color: #fff;
+                            background: #622fee;
+                        }
+                        &:focus{
+                            outline: none;
+                            appearance: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

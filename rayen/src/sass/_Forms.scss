@@ -1,0 +1,66 @@
+.form{
+   padding:.5rem;
+    .button--add{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .form-input-buttom{
+        color:#fff;
+        cursor: pointer;
+        padding:.2rem .7rem;
+        background-color:#622fee;
+        border: 1px solid transparent;
+        transition: all .3s ease-in;
+        &:hover{
+            color:#622fee;
+            background-color: #fff;
+            border:1px solid #622fee;
+            transition: all .3s ease-out;
+   
+        }
+        &:focus{
+            outline: none;
+        }
+
+    }
+    .special--label{
+        position: relative;
+        .placeholder{
+        position: absolute;
+        left: .7rem;
+        top: -21%;
+        color:#818181;
+        font-size: 10px;
+        background: #fff;
+        padding: 2px;
+    }}
+    label{
+        p{
+            color: rgb(124, 71, 71);
+            font-size: 8px;
+        }
+        
+        input{
+            outline:none;
+            padding: 12px;
+            color: #818181;
+            margin: 12px auto;
+            border:1px solid lightgrey;
+            border-radius: 3px;
+            appearance: none;
+            &:focus::placeholder{
+                color: transparent;
+                transition: color .3s ease-in-out;
+            }
+            &::placeholder{
+                color:#818181;
+                transition: color .3s ease-in-out;
+            }
+
+        }
+        .input--form{
+            padding: 8px;
+            margin: .5rem 0;          
+        }
+    }
+}

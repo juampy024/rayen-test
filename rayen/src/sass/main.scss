@@ -1,0 +1,50 @@
+@charset "UTF-8";
+* {	
+    box-sizing: border-box;	
+    margin: 0;	
+    padding: 0;	
+    font-family: 'PT Sans', sans-serif;	
+  
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row{
+    min-width: 250px;
+  }
+
+  input{
+    width: 100% !important;
+  }
+
+  .page--title{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: .9rem;
+    color: #fff;
+    text-align: left;
+    padding: .7rem 0;
+    background-color: #622fee;
+   
+    a{
+      text-decoration: none;
+      color:#fff;
+    }
+  }
+  .container{
+    display: flex;
+    flex-flow: column;
+  }
+
+ @import 'Forms';
+ @import 'Home';
+ @import 'TutorialDetails';
+ @import 'ModifyTutorial';
+ @import 'AddTutorial';
